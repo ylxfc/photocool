@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<dreamers.soft.MyViewFlipper android:id="@+id/flipper"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:gravity="center"
+		android:flipInterval="3000">      <!-- 计时 -->
+		<ImageView android:id="@+id/image_1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scaleType="centerInside"
+		 />
+		 <ImageView android:id="@+id/image_2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scaleType="centerInside"
+		 />
+	</dreamers.soft.MyViewFlipper>
+</LinearLayout>

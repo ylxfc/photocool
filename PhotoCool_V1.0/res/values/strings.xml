@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">photo cool</string>
+    <string name="takePic">拍摄照片</string>
+    <string name="showPic">浏览照片</string>
+    <string name="editPic">编辑照片</string>
+    <string name="extend">人人相册</string>
+    <string name="help">帮助</string>
+    <string name="about">关于</string>
+    <string name="ok_label">确定</string>
+    <string name="extend_title">扩展功能</string>
+    <string name="extend_msg">复赛功能扩展，如访问网络相册、上传照片等</string>
+    <string name="help_title">帮助</string>
+    <string name="help_msg">本程序具有拍照、浏览、编辑图片的功能.存放与SD/DCIM文件夹下;图片浏览中带有图片编辑功能;可以访问人人网获取个人、好友、相册信息，上传、下载图片功能。</string>
+    <string name="about_title">关于 photo cool</string>
+    <string name="about_msg">感谢您使用PhotoCool_v1.0，如果您在使用过程中有什么建议或意见，请联系我们。邮件:yulixfc@gmail.com </string>
+    <string name="Rotate">缩放旋转</string>
+    <string name="Play">播放</string>
+    <string name="Other">其他</string>
+    <string name="Yes">是</string>
+    <string name="No">否</string>
+    <string name="renren_login">点击登录</string>
+    <string name="renren_logout">点击退出</string>
+    <string name="ceshi_login">测试登录</string>
+    <string name="my_info">个人信息</string>
+    <string name="friend_list">好友列表</string>
+    <string name="my_photo">我的相册</string>
+    <string name="upload_photo">上传图片</string>
+    <string name="download_photo">下载图片</string>
+    <string name="hello">hi,welcome to photocool!</string>
+    <string name="auth_string">请登录</string>
+    <string name="auth_success">登陆成功</string>
+    <string name="auth_failed">登陆失败</string>
+    <string name="shibie">人脸识别</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

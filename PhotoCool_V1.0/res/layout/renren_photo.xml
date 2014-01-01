@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout 
+	android:orientation="vertical" android:layout_width="fill_parent"
+	 android:layout_height="fill_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="fill_parent" android:baselineAligned="false">
+        <TextView android:layout_marginTop="6dip" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/renren_title" android:text="@string/renren_login"></TextView>
+        <com.renren.api.connect.android.view.ConnectButton android:id="@+id/login" android:layout_height="match_parent" android:layout_width="match_parent"></com.renren.api.connect.android.view.ConnectButton>
+    </LinearLayout>
+	
+		<Button android:text="@string/ceshi_login" android:id="@+id/ceshi_login"
+	android:textSize="25sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="@string/my_info" android:id="@+id/my_info"
+	android:textSize="25sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+	</Button>
+	
+	<Button android:text="@string/friend_list" android:id="@+id/friend_list"
+	android:textSize="25sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+	</Button>
+	
+	<Button android:text="@string/my_photo" android:id="@+id/my_photo"
+	android:textSize="25sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+	</Button>
+	
+	<Button android:text="@string/upload_photo" android:id="@+id/upload_photo"
+	android:textSize="25sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="@string/download_photo" android:id="@+id/download_photo"
+	android:textSize="25sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+	</Button>
+	
+	
+	
+	<TextView android:id="@+id/my_photo" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="6dip"
+			android:text="按menu键退出登录" />
+	<GridView android:id="@+id/photo_list" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="6dip"
+			/>	
+
+						
+</LinearLayout>
+</ScrollView>

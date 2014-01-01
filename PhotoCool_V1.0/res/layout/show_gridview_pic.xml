@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ViewFlipper 
+		android:id="@+id/viewflipper"
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:gravity="center" >
+		<ImageView android:id="@+id/pre_image" android:layout_width="match_parent"
+			android:layout_height="match_parent" android:scaleType="centerInside" />
+		<ImageView android:id="@+id/next_image" android:layout_width="match_parent"
+			android:layout_height="match_parent" android:scaleType="centerInside" />
+	</ViewFlipper>
+
+	<!-- <ImageView android:id="@+id/imview" android:layout_width="fill_parent"
+		android:layout_height="0dip" android:layout_weight="5"
+		android:layout_gravity="center" android:layout_marginTop="30dp" /> -->
+
+	<Gallery android:id="@+id/sdcard_gridview_pic_grid"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="30dp" />
+</LinearLayout>
+
